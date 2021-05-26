@@ -1,0 +1,1 @@
+cmd_/home/xiongwei.jiang/module/tracepoint/tracepoint_test.ko := ld -r -m elf_x86_64  -T ./scripts/module-common.lds   -o /home/xiongwei.jiang/module/tracepoint/tracepoint_test.ko /home/xiongwei.jiang/module/tracepoint/tracepoint_test.o /home/xiongwei.jiang/module/tracepoint/tracepoint_test.mod.o ;  true

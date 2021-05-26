@@ -1,0 +1,1 @@
+cmd_/home/xiongwei.jiang/module/myfs/myfs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/xiongwei.jiang/module/myfs/myfs.ko /home/xiongwei.jiang/module/myfs/myfs.o /home/xiongwei.jiang/module/myfs/myfs.mod.o ;  true
